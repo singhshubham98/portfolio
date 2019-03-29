@@ -1,0 +1,21 @@
+/* ---------- Main Div ---------- */
+.container {
+  text-align: center;
+}
+.photo-wrapper {
+  padding: 6vmin;
+}
+.photo {
+  border-radius: 50%;
+  box-shadow: 0 0 1px 11px rgba(22, 136, 254, 0.1),
+    0 0 1px 22px rgba(22, 136, 254, 0.05);
+  border: 4px solid rgba(22, 136, 254, 0.5);
+  width: 20vmin;
+}
+.title {
+  margin-top: 1vh;
+  color: #09c0f7;
+}
+.profile-section {
+  display: flex;
+}

@@ -1,0 +1,89 @@
+.contacts .title-deco {
+  margin-bottom: 24px;
+}
+
+.mail-phone {
+  font-size: 20px;
+}
+
+.social-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-item a {
+  color: rgba(0, 0, 0, 0.55);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.social-item a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.social-item .icon {
+  height: 40px;
+  width: 40px;
+  background-color: #09c0f7;
+  color: white;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.social-list .row-2 {
+  margin-top: 16px !important;
+}
+
+.contact-form .uk-input,
+.contact-form .uk-select,
+.contact-form .uk-textarea {
+  background-color: whitesmoke;
+  padding: 0 16px;
+}
+
+.contact-form .uk-input {
+  height: 48px;
+}
+
+.contact-form .uk-textarea,
+.contact-form .uk-input {
+  border-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.contact-form .uk-input:focus,
+.contact-form .uk-textarea:focus {
+  border: 1px solid whitesmoke;
+  background-color: white !important;
+}
+
+.contact-form .submit-btn {
+  background-color: #09c0f7;
+  color: white;
+  border-radius: 4px;
+}
+
+@media (max-width: 450px) {
+  .row-1,
+  .row-2 {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .row-1 .social-item:last-child,
+  .row-2 .social-item:last-child {
+    margin-top: 16px;
+  }
+
+  .mail-phone > div > span {
+    display: block;
+  }
+}

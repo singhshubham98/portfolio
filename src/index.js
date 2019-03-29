@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import jQuery from "jquery";
+
 import Icons from "uikit/dist/js/uikit-icons";
 import UIkit from "uikit";
 

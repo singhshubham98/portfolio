@@ -1,0 +1,25 @@
+footer .uk-navbar-nav li > a {
+  width: 50px;
+  height: 50px;
+  background-color: #09c0f7;
+  border-radius: 50%;
+  color: whitesmoke;
+  border: 1px solid #09c0f7;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 15px !important;
+  min-height: 55px !important;
+}
+
+footer .uk-navbar-nav li:hover > a,
+footer .uk-navbar-nav > li > a:focus {
+  background-color: white;
+  color: #09c0f7;
+  border-color: #09c0f7;
+  cursor: pointer !important;
+}
+
+footer .uk-navbar-nav li:not(:last-child) {
+  margin-right: 16px;
+}
