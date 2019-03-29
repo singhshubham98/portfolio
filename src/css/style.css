@@ -1,0 +1,256 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #676666;
+}
+
+a {
+  color: inherit;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  color: #676666
+}
+
+.navbar a {
+  position: relative;
+  color: #333;
+}
+
+.navbar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items li {
+  margin: 30px;
+  font-size: 14px;
+}
+
+.logo {
+  margin: 20px 0px 0px 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home-container {
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 45%;
+  height: 20%;
+  color: #333;
+}
+
+.title {
+  font-size: 76px;
+}
+
+.description {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.home-icons {
+  font-size: 30px;
+}
+
+.home-icons .fa {
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: 0.5s;
+}
+
+.home-icons .fa:hover {
+  -webkit-transform: translate(0px,-8px); /* Safari */
+  transform: translate(0px,-8px); /* Standard syntax */
+}
+
+.about-page {
+  position: absolute;
+  display: flex;
+  margin: auto;
+  top: 50px; left: 0; bottom: 0; right: 0;
+  width: 75%;
+  height: 80%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+}
+
+.about-content {
+  width: 50%;
+  padding: 60px;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.portrait {
+  margin: auto;
+  margin-right: 60px;
+  height: auto;
+  width: auto;
+  max-height: 80%;
+  max-width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 50%;
+  max-width: 500px;
+  height: 50%;
+  max-height: 500px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+  padding: 40px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+  width: 124px;
+  margin: 40px 0px 40px 0px;
+}
+
+.skill i {
+  font-size: 60px;
+}
+
+.skill p {
+  margin-top: 10px;
+}
+
+.projects-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  top: 50px; left: 0; bottom: 0; right: 0;
+  width: 60%;
+  height: 70%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+}
+
+.project {
+  display: flex;
+  margin-top: 40px;
+  min-height: 200px;
+}
+
+.project i {
+  margin-left: 6px;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.image {
+  width: 40%;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.project img:hover {
+  border-color: rgba(150,150,150,1);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-description {
+  font-size: 18px;
+  width: 60%;
+}
+
+.filter-container {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.filter-item {
+  margin: 16px;
+  cursor: pointer;
+}
+
+.filter-item-underlined {
+  margin: 16px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.react-transition-appear {
+  opacity: 0.01;
+}
+
+.react-transition-appear.react-transition-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.react-transition-leave {
+  opacity: 0.01;
+}
