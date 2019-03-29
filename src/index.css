@@ -6,10 +6,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: linear-gradient(to right, rgb(203, 52, 181), rgb(68, 166, 187)); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 2;
+}
+
+.color-primary {
+  color: #fa8d99 !important;
+}
+
+.color-grey-54 {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.color-grey-38 {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-size-14 {
+  font-size: 14px;
+}
+
+.title-deco {
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fa8d99;
+}
+
+.title-deco:before {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #fa8d99;
+  margin-right: 8px;
+}
+
+.section-subtitle {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.24);
+  text-transform: uppercase;
+}
+
+.gradient-text {
+  color: #ff8a80;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff8a80),
+    to(#f48fb1)
+  );
+  background-image: -webkit-linear-gradient(top, #ff8a80 0%, #f48fb1 100%);
+  background-image: -o-linear-gradient(top, #ff8a80 0%, #f48fb1 100%);
+  background-image: linear-gradient(-180deg, #ff8a80 0%, #f48fb1 100%);
+
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 639px) {
+  main .resume {
+    padding: 0 32px;
+  }
+
+  main .contacts {
+    padding: 0 32px;
+  }
 }
