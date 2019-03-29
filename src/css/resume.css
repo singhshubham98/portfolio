@@ -72,6 +72,9 @@
   .resume {
     margin-left: 0% !important;
   }
+  .paragraph {
+    font-size: 3vmin;
+  }
 }
 @media screen and (min-width: 800px) {
   .resume {

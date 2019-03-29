@@ -4,7 +4,6 @@
 import React from "react";
 
 import "../css/contact.css";
-
 const Contacts = () => (
   <div className="uk-container contacts uk-text-left uk-margin-large-top uk-margin-large-bottom">
     <div is uk-grid>
@@ -18,9 +17,7 @@ const Contacts = () => (
         <section className="uk-margin-large-top">
           <div className="mail-phone uk-flex uk-flex-wrap">
             <div className="mail uk-margin-medium-right">
-              <span className="uk-text-uppercase color-primary text-medium">
-                Email:
-              </span>
+              <span className=" color-primary text-medium">Email:</span>
               <a
                 className="color-grey-54"
                 href="mailto:shubhamsingh4204@gmail.com?Subject=Hello"
@@ -31,9 +28,7 @@ const Contacts = () => (
               </a>
             </div>
             <div className="phone uk-margin-medium-right">
-              <span className="uk-text-uppercase color-primary text-medium">
-                Phone:
-              </span>
+              <span className=" color-primary text-medium">Phone:</span>
               <span className="color-grey-54"> +91 9119637832</span>
             </div>
           </div>
