@@ -10,7 +10,7 @@ const Contacts = () => (
       <div className="uk-width-1-6@s uk-width-1-6@m" />
       <div className="uk-width-2-3@s uk-width-2-3@m">
         <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">
-          Contacts
+          Contact
         </h2>
 
         {/*Contacts*/}
