@@ -7,7 +7,7 @@ import React from "react";
 import "../css/contact.css";
 const Contacts = () => (
   <div className="uk-container contacts uk-text-left uk-margin-large-top uk-margin-large-bottom">
-    <div is uk-grid>
+    <div uk-grid="true">
       <div className="uk-width-1-6@s uk-width-1-6@m" />
       <div className="uk-width-2-3@s uk-width-2-3@m">
         <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">
@@ -42,8 +42,7 @@ const Contacts = () => (
             <div className="row-1 uk-flex uk-flex-wrap">
               <div className="social-item uk-margin-large-right">
                 <span
-                  class="icon uk-margin-small-right"
-                  is
+                  className="icon uk-margin-small-right"
                   uk-icon="icon:github"
                 />
                 <a href="https://github.com/singhshubham98" target="blank">
@@ -53,8 +52,7 @@ const Contacts = () => (
 
               <div className="social-item">
                 <span
-                  class="icon uk-margin-small-right"
-                  is
+                  className="icon uk-margin-small-right"
                   uk-icon="icon:twitter"
                 />
                 <a href="https://twitter.com/shubhamsingh425" target="blank">
@@ -66,8 +64,7 @@ const Contacts = () => (
             <div className="row-2 uk-flex uk-flex-wrap uk-margin-small-top">
               <div className="social-item uk-margin-large-right">
                 <span
-                  class="icon uk-margin-small-right"
-                  is
+                  className="icon uk-margin-small-right"
                   uk-icon="icon:linkedin"
                 />
                 <a
@@ -80,8 +77,7 @@ const Contacts = () => (
 
               <div className="social-item">
                 <span
-                  class="icon uk-margin-small-right"
-                  is
+                  className="icon uk-margin-small-right"
                   uk-icon="icon:facebook"
                 />
                 <a href="https://www.facebook.com/shubham4204" target="blank">
@@ -97,7 +93,7 @@ const Contacts = () => (
           <h4 className="title-deco">Write to me</h4>
           <div className="form-container">
             <form
-              target="_blanck"
+              target="blank"
               method="POST"
               action="https://formspree.io/shubhamsingh4204@gmail.com"
             >

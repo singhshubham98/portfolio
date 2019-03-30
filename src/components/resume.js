@@ -7,8 +7,8 @@ import "../css/resume.css";
 
 const Resume = () => (
   <div className="uk-container resume uk-text-left uk-margin-large-top uk-margin-large-bottom">
-    <div is uk-grid>
-      <div class="uk-width-1-6@s uk-width-1-6@m" />
+    <div uk-grid="true">
+      <div className="uk-width-1-6@s uk-width-1-6@m" />
       <div className="uk-width-2-3@s uk-width-2-3@m">
         <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">
           Resume
@@ -32,7 +32,7 @@ const Resume = () => (
         {/*Skills*/}
         <section className="skills uk-margin-large-top">
           <h4 className="title-deco">Skills</h4>
-          <div is uk-grid>
+          <div uk-grid="true">
             <div className="uk-width-1-2@m">
               <div className="h5 section-subtitle">Core Skills</div>
               <div className="core-skills-list uk-flex uk-flex-wrap uk-margin-small-top">

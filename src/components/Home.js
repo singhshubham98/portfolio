@@ -23,8 +23,8 @@ class Home extends Component {
             <div className="about">
               <div className="markdown">
                 <p className="paragraph">
-                  Hi, I’m Shubham Singh, a self taught React web developer 3rd
-                  year Undergradute student from IIIT Vadodara.
+                  Hi, I’m Shubham Singh, React web developer 3rd year
+                  Undergradute student from IIIT Vadodara.
                 </p>
               </div>
             </div>
@@ -34,7 +34,6 @@ class Home extends Component {
                   <a
                     href="https://github.com/singhshubham98"
                     className="uk-icon-link"
-                    is
                     uk-icon="icon:github"
                     target="blank"
                   />
@@ -43,7 +42,6 @@ class Home extends Component {
                   <a
                     href="https://www.linkedin.com/in/shubham-singh-a81638148"
                     className="uk-icon-link"
-                    is
                     uk-icon="icon:linkedin"
                     target="blank"
                   />
@@ -52,7 +50,6 @@ class Home extends Component {
                   <a
                     href="https://twitter.com/shubhamsingh425"
                     className="uk-icon-link"
-                    is
                     uk-icon="icon:twitter"
                     target="blank"
                   />
@@ -61,7 +58,6 @@ class Home extends Component {
                   <a
                     href="https://www.facebook.com/shubham4204"
                     className="uk-icon-link"
-                    is
                     uk-icon="icon:facebook"
                     target="blank"
                   />
