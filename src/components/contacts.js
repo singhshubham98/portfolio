@@ -1,6 +1,7 @@
 /**
  * Created by Shubham Singh on 29/03/19.
  */
+
 import React from "react";
 
 import "../css/contact.css";
@@ -97,7 +98,7 @@ const Contacts = () => (
           <div className="form-container">
             <form
               method="POST"
-              action="http://formspree.io/shubhamsingh4204@gmail.com"
+              action="https://formspree.io/shubhamsingh4204@gmail.com"
             >
               <fieldset className="uk-fieldset">
                 <div className="uk-margin">
