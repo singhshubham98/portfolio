@@ -24,7 +24,7 @@ export default (ProjectData = [
   {
     title: "Portfolio",
     tags: ["Web Design", "React", "Bootstrap"],
-    thumb: "img/project_4.jpg",
+    thumb: "img/project_4.png",
     link: "https://singhshubham98.netlify.com"
   },
   {
