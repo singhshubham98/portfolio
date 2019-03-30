@@ -97,7 +97,7 @@ const Contacts = () => (
           <div className="form-container">
             <form
               method="POST"
-              action="http://formspree.io/ansarimofid@gmail.com"
+              action="http://formspree.io/shubhamsingh4204@gmail.com"
             >
               <fieldset className="uk-fieldset">
                 <div className="uk-margin">
@@ -149,6 +149,3 @@ const Contacts = () => (
 );
 
 export default Contacts;
-
-// WEBPACK FOOTER //
-// ./src/pages/Contacts/Contacts.js
