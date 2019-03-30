@@ -6,8 +6,7 @@
 </p>
 <hr>
 <h4 align="center"> Website for Cerebro powered by
-<img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="40" align="center"> and
-<img src="https://cloud.githubusercontent.com/assets/321047/21769911/474d7d9e-d681-11e6-9fe0-d95f8ccfd3a9.jpg" width="30" align="center"></h4>
+<img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="40" align="center"></h4>
 
 ### Development 🔧
 
@@ -26,3 +25,5 @@ npm start
 ### Authors ✍️
 
 ©️ [Shubham Singh](https://github.com/singhshubham98/portfolio) ✨
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b50d0e75-874a-4a1f-9453-de06c537b597/deploy-status)](https://app.netlify.com/sites/singhshubham98/deploys)
