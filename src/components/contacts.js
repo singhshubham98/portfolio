@@ -130,7 +130,7 @@ const Contacts = () => (
                 <input
                   type="hidden"
                   name="_subject"
-                  value="Query From Shubham"
+                  value="Query From Singhshubham"
                 />
                 <input type="hidden" name="_format" value="plain" />
                 <div className="uk-margin">
