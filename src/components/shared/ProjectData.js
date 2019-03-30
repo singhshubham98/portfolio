@@ -34,8 +34,8 @@ export default (ProjectData = [
     link: "https://stormy-castle-53477.herokuapp.com"
   },
   {
-    title: "DBMS Army Database",
-    tags: ["Web Design", "PostgreSQL", "Concept"],
+    title: "Army Database",
+    tags: ["Web Design", "PostgreSQL", "DBMS"],
     thumb: "img/project_6.png",
     link: "https://github.com/singhshubham98/DBMS-Army-Database"
   }
