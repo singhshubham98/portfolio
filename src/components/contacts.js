@@ -97,6 +97,7 @@ const Contacts = () => (
           <h4 className="title-deco">Write to me</h4>
           <div className="form-container">
             <form
+              target="_blanck"
               method="POST"
               action="https://formspree.io/shubhamsingh4204@gmail.com"
             >
