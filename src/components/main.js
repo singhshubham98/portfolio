@@ -6,7 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Resume from "./resume";
 import Contacts from "./contacts";
-import Projects from "./projects";
+import Projects from "./ProjectList";
 
 const Main = () => (
   <main>
