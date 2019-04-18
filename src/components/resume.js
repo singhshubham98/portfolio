@@ -20,7 +20,7 @@ const Resume = () => (
           <p className="paragraph">
             Hi, I’m <span className="color-primary">Shubham Singh</span>, a self
             taught <span className="color-primary">React web developer</span>{" "}
-            3rd year Undergradute student from IIIT Vadodara. I started with
+            3rd year Undergraduate student from IIIT Vadodara. I started with
             developing websites and eventually the developing component caught
             my imagination which encouraged me to explore it more seriously from
             a professional perspective. Since last 2 years, I’ve been exploring,
