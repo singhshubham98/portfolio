@@ -23,7 +23,7 @@ class Home extends Component {
               <div className="markdown">
                 <p className="paragraph">
                   Hi, I’m Shubham Singh, React web developer 3rd year
-                  Undergradute student from IIIT Vadodara.
+                  undergraduate student from IIIT Vadodara.
                 </p>
               </div>
             </div>
