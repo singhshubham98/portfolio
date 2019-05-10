@@ -31,7 +31,7 @@ const Resume = () => (
 
         {/*Skills*/}
         <section className="skills uk-margin-large-top">
-          <h4 className="title-deco">Skills</h4>
+          <h4 className="title-deco ">Skills</h4>
           <div uk-grid="true">
             <div className="uk-width-1-2@m">
               <div className="h5 section-subtitle">Core Skills</div>
@@ -39,10 +39,13 @@ const Resume = () => (
                 <div className="core-skill circle-text-container">React</div>
                 <div className="core-skill circle-text-container">Redux</div>
                 <div className="core-skill circle-text-container">
+                  React Native
+                </div>
+                <div className="core-skill circle-text-container">
                   HTML & CSS
                 </div>
+                <div className="core-skill circle-text-container">Node</div>
                 <div className="core-skill circle-text-container">Django</div>
-                <div className="core-skill circle-text-container">PHP</div>
               </div>
             </div>
             <div className="uk-width-1-2@m">
@@ -50,14 +53,14 @@ const Resume = () => (
               <div className="other-skills-list  uk-flex uk-flex-wrap uk-margin-small-top">
                 <div className="other-skill">C</div>
                 <div className="other-skill">JAVA</div>
+                <div className="other-skill">Bootstrap</div>
+                <div className="other-skill">Firebase</div>
+                <div className="other-skill">UIkit</div>
+                <div className="other-skill">PHP</div>
                 <div className="other-skill">Latex</div>
                 <div className="other-skill">MySQL</div>
                 <div className="other-skill">PostgreSQL</div>
                 <div className="other-skill">Github</div>
-                <div className="other-skill">JavaScript</div>
-                <div className="other-skill">Firebase</div>
-                <div className="other-skill">UIkit</div>
-                <div className="other-skill">NodeJs</div>
               </div>
             </div>
           </div>
