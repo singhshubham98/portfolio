@@ -5,7 +5,7 @@
 
 </p>
 <hr>
-<h4 align="center"> Website for Cerebro powered by
+<h4 align="center"> Website for Portfolio powered by
 <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="40" align="center"></h4>
 
 ### Development 🔧
