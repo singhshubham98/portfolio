@@ -172,7 +172,7 @@ const Resume = () => (
               </div>
               <div className="time text-size-14">
                 {" "}
-                1st Dec 2019 - 31st Dec 2019
+                1st Dec 2018 - 31st Dec 2018
               </div>
             </div>
           </div>
