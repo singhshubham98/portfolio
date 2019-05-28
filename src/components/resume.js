@@ -154,19 +154,19 @@ const Resume = () => (
           </div>
         </section>
 
-        {/* Experience
+        {/* Experience */}
         <section className="edu uk-margin-large-top">
           <h4 className="title-deco">Experience</h4>
           <div className="exp-list">
             <div className="exp-item">
               <div className="position text-medium">Web Developer</div>
               <div className="inst-name text-size-14 color-grey-38">
-                SECUREITLAB
+                iView Labs Pvt. Ltd.
               </div>
-              <div className="time text-size-14">May 2016 - Sep 2016</div>
+              <div className="time text-size-14">May 2019 - July 2019</div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/*Hoby*/}
         <section className="edu uk-margin-large-top">
