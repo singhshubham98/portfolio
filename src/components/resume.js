@@ -19,8 +19,8 @@ const Resume = () => (
           <h4 className="title-deco">About</h4>
           <p className="paragraph">
             Hi, I’m <span className="color-primary">Shubham Singh</span>, a self
-            taught <span className="color-primary">React web developer</span>{" "}
-            3rd year Undergraduate student from IIIT Vadodara. I started with
+            taught <span className="color-primary">Full stack developer</span>{" "}
+            4th year Undergraduate student from IIIT Vadodara. I started with
             developing websites and eventually the developing component caught
             my imagination which encouraged me to explore it more seriously from
             a professional perspective. Since last 2 years, I’ve been exploring,
@@ -114,6 +114,41 @@ const Resume = () => (
                 <div className="grade text-size-14">
                   <span className="text-medium">CGPA:</span> 87.60%
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Certificate  */}
+        <section className="edu uk-margin-large-top">
+          <h4 className="title-deco">Certificate</h4>
+          <div className="exp-list">
+            <div className="exp-item">
+              <div className="position text-medium">
+                Front-End Web Development with React
+              </div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Certificate Link:{" "}
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR"
+                  alt="React"
+                >
+                  https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR
+                </a>
+              </div>
+            </div>
+            <div className="exp-item mt-4">
+              <div className="position text-medium">
+                Multiplatform Mobile App Development with React Native
+              </div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Certificate Link:{" "}
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR"
+                  alt="React Native"
+                >
+                  Insert Link
+                </a>
               </div>
             </div>
           </div>
