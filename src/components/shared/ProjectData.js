@@ -22,21 +22,27 @@ export default (ProjectData = [
     link: "https://cerebro.iiitv.ac.in"
   },
   {
+    title: "Online Restaurant Table Booking",
+    tags: ["Mobile App development", "React Native", "Redux"],
+    thumb: "img/project_4.png",
+    link: "https://github.com/singhshubham98/Restaurant"
+  },
+  {
     title: "Portfolio",
     tags: ["Web Design", "React", "Bootstrap"],
-    thumb: "img/project_4.png",
+    thumb: "img/project_5.png",
     link: "https://singhshubham98.netlify.com"
   },
   {
     title: "Chat App",
     tags: ["Web Design", "Node", "Bootstrap"],
-    thumb: "img/project_5.png",
+    thumb: "img/project_6.png",
     link: "https://stormy-castle-53477.herokuapp.com"
   },
   {
     title: "Army Database",
     tags: ["Web Design", "PostgreSQL", "DBMS"],
-    thumb: "img/project_6.png",
+    thumb: "img/project_7.png",
     link: "https://github.com/singhshubham98/DBMS-Army-Database"
   }
 ]);
