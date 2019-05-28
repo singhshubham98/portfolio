@@ -165,6 +165,16 @@ const Resume = () => (
               </div>
               <div className="time text-size-14">May 2019 - July 2019</div>
             </div>
+            <div className="exp-item">
+              <div className="position text-medium">Rural Internship</div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Subhash Children Society, Kanpur, India
+              </div>
+              <div className="time text-size-14">
+                {" "}
+                1st Dec 2019 - 31st Dec 2019
+              </div>
+            </div>
           </div>
         </section>
 
