@@ -18,12 +18,11 @@ class Home extends Component {
               />
             </div>
             <h1 className="name">Shubham Singh</h1>
-            <h3 className="title">I am a Web Developer</h3>
+            <h3 className="title">Full stack Developer</h3>
             <div className="about">
               <div className="markdown">
                 <p className="paragraph">
-                  Hi, I’m Shubham Singh, React web developer 3rd year
-                  undergraduate student from IIIT Vadodara.
+                  Indian Institute of Information Technology, Vadodara
                 </p>
               </div>
             </div>
