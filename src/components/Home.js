@@ -18,7 +18,7 @@ class Home extends Component {
               />
             </div>
             <h1 className="name">Shubham Singh</h1>
-            <h3 className="title">Full stack Developer</h3>
+            <h3 className="title">MERN stack Developer</h3>
             <div className="about">
               <div className="markdown">
                 <p className="paragraph">

@@ -19,7 +19,7 @@ const Resume = () => (
           <h4 className="title-deco">About</h4>
           <p className="paragraph">
             Hi, I’m <span className="color-primary">Shubham Singh</span>, a self
-            taught <span className="color-primary">Full stack developer</span>{" "}
+            taught <span className="color-primary">MERN stack developer</span>{" "}
             4th year Undergraduate student from IIIT Vadodara. I started with
             developing websites and eventually the developing component caught
             my imagination which encouraged me to explore it more seriously from
@@ -144,10 +144,10 @@ const Resume = () => (
               <div className="inst-name text-size-14 color-grey-38">
                 Certificate Link:{" "}
                 <a
-                  href="https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR"
+                  href="https://www.coursera.org/account/accomplishments/certificate/C5NX8AA9B9CD"
                   alt="React Native"
                 >
-                  Insert Link
+                  https://www.coursera.org/account/accomplishments/certificate/C5NX8AA9B9CD
                 </a>
               </div>
             </div>
