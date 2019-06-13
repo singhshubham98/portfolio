@@ -125,15 +125,29 @@ const Resume = () => (
           <div className="exp-list">
             <div className="exp-item">
               <div className="position text-medium">
+                Server-side Development with NodeJS, Express and MongoDB
+              </div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Certificate Link:{" "}
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/GQPQADP7JP4C"
+                  alt="React"
+                >
+                  https://www.coursera.org/account/accomplishments/certificate/GQPQADP7JP4C
+                </a>
+              </div>
+            </div>
+            <div className="exp-item mt-4">
+              <div className="position text-medium">
                 Front-End Web Development with React
               </div>
               <div className="inst-name text-size-14 color-grey-38">
                 Certificate Link:{" "}
                 <a
-                  href="https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR"
+                  href="https://www.coursera.org/account/accomplishments/certificate/F5H6XCLHNFJR"
                   alt="React"
                 >
-                  https://www.coursera.org/account/accomplishments/records/F5H6XCLHNFJR
+                  https://www.coursera.org/account/accomplishments/certificate/F5H6XCLHNFJR
                 </a>
               </div>
             </div>
