@@ -173,13 +173,11 @@ const Resume = () => (
           <h4 className="title-deco">Experience</h4>
           <div className="exp-list">
             <div className="exp-item ">
-              <div className="position text-medium">Full Stack Development</div>
+              <div className="position text-medium">Full Stack Developer</div>
               <div className="inst-name text-size-14 color-grey-38">
-                Ando Technologies Pvt. Ltd.
+                Ando Technologies Pvt. Ltd. (Work from Home)
               </div>
-              <div className="time text-size-14">
-                10th June 2019 - Present (Work from Home)
-              </div>
+              <div className="time text-size-14">10th June 2019 - Present</div>
             </div>
             <div className="exp-item mt-3">
               <div className="position text-medium">Web Developer</div>
