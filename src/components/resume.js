@@ -172,13 +172,23 @@ const Resume = () => (
         <section className="edu uk-margin-large-top">
           <h4 className="title-deco">Experience</h4>
           <div className="exp-list">
-            <div className="exp-item">
+            <div className="exp-item ">
+              <div className="position text-medium">Full Stack Development</div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Ando Technologies Pvt. Ltd.
+              </div>
+              <div className="time text-size-14">
+                10th June 2019 - Present (Work from Home)
+              </div>
+            </div>
+            <div className="exp-item mt-3">
               <div className="position text-medium">Web Developer</div>
               <div className="inst-name text-size-14 color-grey-38">
                 iView Labs Pvt. Ltd.
               </div>
               <div className="time text-size-14">May 2019 - July 2019</div>
             </div>
+
             <div className="exp-item mt-3">
               <div className="position text-medium">Rural Internship</div>
               <div className="inst-name text-size-14 color-grey-38">
