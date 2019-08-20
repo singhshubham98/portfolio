@@ -4,14 +4,14 @@
 let ProjectData = [];
 export default (ProjectData = [
   {
-    title: "Online Hostel Allotment",
-    tags: ["Web Design", "Django", "Bootstrap"],
-    thumb: "img/project_1.png",
-    link: "http://shubham98.pythonanywhere.com"
+    title: "Shop Deal",
+    tags: ["Web Design", "React", "Node"],
+    thumb: "img/shopdeal.png",
+    link: "https://github.com/singhshubham98/Shop-Deal"
   },
   {
     title: "IIITV Cricket League",
-    tags: ["Web Design", "React", "Bootstrap"],
+    tags: ["Web Design", "React", "Firebase"],
     thumb: "img/project_2.png",
     link: "https://iiitvcricleague.netlify.com/"
   },
@@ -20,6 +20,12 @@ export default (ProjectData = [
     tags: ["Web Design", "React", "SASS"],
     thumb: "img/project_3.png",
     link: "https://cerebro.iiitv.ac.in"
+  },
+  {
+    title: "Online Hostel Allotment",
+    tags: ["Web Design", "Django", "Bootstrap"],
+    thumb: "img/project_1.png",
+    link: "http://shubham98.pythonanywhere.com"
   },
   {
     title: "Online Restaurant Table Booking",
@@ -33,6 +39,7 @@ export default (ProjectData = [
     thumb: "img/project_5.png",
     link: "https://singhshubham98.netlify.com"
   },
+
   {
     title: "Chat App",
     tags: ["Web Design", "Node", "Bootstrap"],
