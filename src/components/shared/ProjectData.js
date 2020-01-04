@@ -2,7 +2,7 @@
  * Created by Shubham Singh on 29/03/19.
  */
 let ProjectData = [];
-export default (ProjectData = [
+export default ProjectData = [
   {
     title: "Shop Deal",
     tags: ["Web Design", "React", "Node"],
@@ -34,10 +34,10 @@ export default (ProjectData = [
     link: "https://github.com/singhshubham98/Restaurant"
   },
   {
-    title: "Portfolio",
-    tags: ["Web Design", "React", "Bootstrap"],
-    thumb: "img/project_5.png",
-    link: "https://singhshubham98.netlify.com"
+    title: "Instagram Clone",
+    tags: ["Mobile app development", "React Native", "Turbo 360"],
+    thumb: "img/instaClone.png",
+    link: "https://github.com/singhshubham98/instagram_clone"
   },
 
   {
@@ -52,4 +52,4 @@ export default (ProjectData = [
     thumb: "img/project_7.png",
     link: "https://github.com/singhshubham98/DBMS-Army-Database"
   }
-]);
+];
