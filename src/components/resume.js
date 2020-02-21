@@ -41,11 +41,11 @@ const Resume = () => (
                 <div className="core-skill circle-text-container">
                   React Native
                 </div>
+                <div className="core-skill circle-text-container">Angular</div>
+                <div className="core-skill circle-text-container">Node</div>
                 <div className="core-skill circle-text-container">
                   HTML & CSS
                 </div>
-                <div className="core-skill circle-text-container">Node</div>
-                <div className="core-skill circle-text-container">Django</div>
               </div>
             </div>
             <div className="uk-width-1-2@m">
@@ -59,7 +59,6 @@ const Resume = () => (
                 <div className="other-skill">PHP</div>
                 <div className="other-skill">Latex</div>
                 <div className="other-skill">MySQL</div>
-                <div className="other-skill">PostgreSQL</div>
                 <div className="other-skill">Github</div>
               </div>
             </div>
@@ -134,6 +133,20 @@ const Resume = () => (
                   alt="React"
                 >
                   https://www.coursera.org/account/accomplishments/certificate/GQPQADP7JP4C
+                </a>
+              </div>
+            </div>
+            <div className="exp-item mt-4">
+              <div className="position text-medium">
+                Front-End JavaScript Frameworks: Angular
+              </div>
+              <div className="inst-name text-size-14 color-grey-38">
+                Certificate Link:{" "}
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/2MRVFE7LQYR6"
+                  alt="Angular"
+                >
+                  https://www.coursera.org/account/accomplishments/certificate/2MRVFE7LQYR6
                 </a>
               </div>
             </div>
