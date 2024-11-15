@@ -15,6 +15,7 @@ const Footer = () => (
             className="uk-icon-link"
             uk-icon="icon:github"
             target="blank"
+            aria-label="github"
           />
         </li>
         <li>
@@ -23,14 +24,16 @@ const Footer = () => (
             className="uk-icon-link"
             uk-icon="icon:linkedin"
             target="blank"
+            aria-label="linkedin"
           />
         </li>
         <li>
           <a
-            href="https://twitter.com/shubhamsingh425"
+            href="https://x.com/shubhamsingh425"
             className="uk-icon-link"
             uk-icon="icon:twitter"
             target="blank"
+            aria-label="x"
           />
         </li>
         <li>
@@ -39,6 +42,7 @@ const Footer = () => (
             className="uk-icon-link"
             uk-icon="icon:facebook"
             target="blank"
+            aria-label="facebook"
           />
         </li>
       </ul>

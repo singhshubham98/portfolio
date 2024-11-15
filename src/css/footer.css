@@ -1,6 +1,6 @@
 footer .uk-navbar-nav li > a {
-  width: 50px;
-  height: 50px;
+  width: 50px !important;
+  min-height: 50px !important;
   background-color: #09c0f7;
   border-radius: 50%;
   color: whitesmoke;
@@ -8,8 +8,8 @@ footer .uk-navbar-nav li > a {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  padding: 0 15px !important;
-  min-height: 55px !important;
+  /* padding: 0 15px !important; */
+  /* min-height: 55px !important; */
 }
 
 footer .uk-navbar-nav li:hover > a,

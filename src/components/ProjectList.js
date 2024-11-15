@@ -3,7 +3,8 @@
  */
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectData from "./shared/ProjectData";
+import { ProjectData } from "./shared/ProjectData";
+import Footer from "./footer";
 
 const ProjectDataArr = ProjectData;
 
@@ -20,13 +21,16 @@ class ProjectList extends Component {
 
   render() {
     return (
-      <div className="container uk-text-center projects">
-        <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">
-          Projects
-        </h2>
-        <div className="uk-grid">{this.getProjectCards()}</div>
-        <div className="uk-padding-small" />
-      </div>
+      <>
+        <div className="container uk-text-center projects">
+          <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">
+            Projects
+          </h2>
+          <div className="uk-grid">{this.getProjectCards()}</div>
+          <div className="uk-padding-small" />
+        </div>
+        <Footer />
+      </>
     );
   }
 }

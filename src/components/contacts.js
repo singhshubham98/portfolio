@@ -55,7 +55,7 @@ const Contacts = () => (
                   className="icon uk-margin-small-right"
                   uk-icon="icon:twitter"
                 />
-                <a href="https://twitter.com/shubhamsingh425" target="blank">
+                <a href="https://x.com/shubhamsingh425" target="blank">
                   /singhshubham
                 </a>
               </div>
